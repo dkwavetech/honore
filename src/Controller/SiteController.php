@@ -19,7 +19,7 @@ class SiteController extends AbstractController
     }
 
     /**
-     * @Route("/in-loving-memory/programme")
+     * @Route("/programme")
      */
     public function programme()
     {
