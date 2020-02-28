@@ -26,4 +26,13 @@ class SiteController extends AbstractController
         return $this->render('site/programme.html.twig', [
         ]);
     }
+
+    /**
+     * @Route("/album")
+     */
+    public function album()
+    {
+        return $this->render('site/album.html.twig', [
+        ]);
+    }
 }

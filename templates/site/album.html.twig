@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--
+Item Name: Elisyam - Web App & Admin Dashboard Template
+Version: 1.5
+Author: SAEROX
+
+** A license must be purchased in order to legally use this template for your project **
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>François-Honoré MKOUOUNGA - in loving memory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Google Fonts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {"families":["Montserrat:400,500,600,700","Noto+Sans:400,700"]},
+            active: function() {
+                sessionStorage.fonts = true;
+            }
+        });
+    </script>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('template3/img/apple-touch-icon.png')}}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('template3/img/favicon-32x32.png')}}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('template3/img/favicon-16x16.png')}}">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="{{ asset('template3/vendors/css/base/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('template3/vendors/css/base/elisyam-1.5.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('template3/css/lity/lity.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('template3/icons/lineawesome/css/line-awesome.css') }}">
+    <link rel="stylesheet" href="{{ asset('template3/icons/lineawesome/css/line-awesome.min.css') }}">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+</head>
+<body id="page-top">
+<!-- Begin Preloader -->
+<div id="preloader">
+    <div class="canvas">
+        <h2>In loving memory</h2>
+        <div class="spinner"></div>
+    </div>
+</div>
+<!-- End Preloader -->
+<div class="page db-modern">
+    <!-- Begin Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Begin Search Box-->
+                <div class="search-box">
+                    <button class="dismiss"><i class="ion-close-round"></i></button>
+                    <form id="searchForm" action="#" role="search">
+                        <input type="search" placeholder="Search something ..." class="form-control">
+                    </form>
+                </div>
+                <!-- End Search Box-->
+                <!-- Begin Topbar -->
+                <div class="navbar-holder d-flex align-items-center align-middle justify-content-between">
+                    <!-- Begin Logo -->
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand">
+                            <h2 style="margin-left:20px; margin-top:10px; color:white; font-style: italic; font-weight: bold">In loving memory</h2>
+                            <h2 style="margin-left:20px; margin-top:10px; color:white; font-style: italic; font-weight: bold">Papa François-Honoré</h2>
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                    <!-- Begin Navbar Menu -->
+
+                </div>
+                <!-- End Topbar -->
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Begin Page Content -->
+
+    <div class="page-content d-flex align-items-stretch">
+        <div class="compact-sidebar light-sidebar has-shadow">
+            <!-- Begin Side Navbar -->
+            <nav class="side-navbar box-scroll sidebar-scroll">
+                <!-- Begin Main Navigation -->
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="{{ path('app_site_index')}}">
+                            <i class="la la-envelope"></i><span>Faire-part</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ path('app_site_programme')}}#program">
+                            <i class="la la-list"></i><span>Programme</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="la la-comments"></i><span>Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{{ path('app_site_index') }}">
+                            <i class="la la-angle-left"></i><span>Retour</span>
+                        </a>
+                    </li>
+                </ul>
+                <!-- End Main Navigation -->
+            </nav>
+            <!-- End Side Navbar -->
+        </div>
+        <!-- End Left Sidebar -->
+        <!-- Begin Content -->
+        <div class="content-inner compact">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xl-11">
+                        <!-- Begin Page Header-->
+                        <!-- End Page Header -->
+                        <div class="row align-items-center mt-3 mb-4">
+                            <div class="col-8 text-right">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item mr-2">
+                                        <a href="{{ path('app_site_index') }}">
+                                            <i class="la la-angle-left"></i><span>Retour</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item mr-2">
+
+                                    </li>
+                                    <li class="list-inline-item">
+
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-3 col-md-4 col-sm-6">
+                                <div class="widget has-shadow">
+                                    <figure class="img-hover-01">
+                                        <img src="{{ asset('template3/img/albums/IMG-20200226-WA0006.jpg') }}" class="img-fluid" alt="...">
+                                        <div>
+                                            <a href="{{ asset('template3/img/albums/IMG-20200226-WA0006.jpg') }}" data-lity data-lity-desc="...">
+                                                <i class="la la-expand"></i>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                    <div class="widget-body text-center">
+                                        <h3 class="mt-3 mb-3"><a href="#">Papa</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6">
+                                <div class="widget has-shadow">
+                                    <figure class="img-hover-01">
+                                        <img src="{{ asset('template3/img/albums/IMG-20200226-WA0026.jpg') }}" class="img-fluid" alt="...">
+                                        <div>
+                                            <a href="{{ asset('template3/img/albums/IMG-20200226-WA0026.jpg') }}" data-lity data-lity-desc="...">
+                                                <i class="la la-expand"></i>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                    <div class="widget-body text-center">
+                                        <h3 class="mt-3 mb-3"><a href="#">Friend</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6">
+                                <div class="widget has-shadow">
+                                    <figure class="img-hover-01">
+                                        <img src="{{ asset('template3/img/albums/IMG-20200226-WA0027.jpg')}}" class="img-fluid" alt="...">
+                                        <div>
+                                            <a href="{{ asset('template3/img/albums/IMG-20200226-WA0027.jpg')}}" data-lity data-lity-desc="...">
+                                                <i class="la la-expand"></i>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                    <div class="widget-body text-center">
+                                        <h3 class="mt-3 mb-3"><a href="#">Papa</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6">
+                                <div class="widget has-shadow">
+                                    <figure class="img-hover-01">
+                                        <img src="{{ asset('template3/img/albums/IMG-20200228-WA0003.jpg')}}" class="img-fluid" alt="...">
+                                        <div>
+                                            <a href="{{ asset('template3/img/albums/IMG-20200228-WA0003.jpg')}}" data-lity data-lity-desc="...">
+                                                <i class="la la-expand"></i>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                    <div class="widget-body text-center">
+                                        <h3 class="mt-3 mb-3"><a href="#">Family</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6">
+                                <div class="widget has-shadow">
+                                    <figure class="img-hover-01">
+                                        <img src="{{ asset('template3/img/albums/IMG-20200228-WA0007.jpg')}}" class="img-fluid" alt="...">
+                                        <div>
+                                            <a href="{{ asset('template3/img/albums/IMG-20200228-WA0007.jpg')}}" data-lity data-lity-desc="...">
+                                                <i class="la la-expand"></i>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                    <div class="widget-body text-center">
+                                        <h3 class="mt-3 mb-3"><a href="#">Family</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6">
+                                <div class="widget has-shadow">
+                                    <figure class="img-hover-01">
+                                        <img src="{{ asset('template3/img/albums/27173263_1616724205077487_7505243518398743995_o.jpg')}}" class="img-fluid" alt="...">
+                                        <div>
+                                            <a href="{{ asset('template3/img/albums/27173263_1616724205077487_7505243518398743995_o.jpg')}}" data-lity data-lity-desc="...">
+                                                <i class="la la-expand"></i>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                    <div class="widget-body text-center">
+                                        <h3 class="mt-3 mb-3"><a href="#">Field</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6">
+                                <div class="widget has-shadow">
+                                    <figure class="img-hover-01">
+                                        <img src="{{ asset('template3/img/albums/27336887_1616724208410820_7605538349923247808_n.jpg')}}" class="img-fluid" alt="...">
+                                        <div>
+                                            <a href="{{ asset('template3/img/albums/27336887_1616724208410820_7605538349923247808_n.jpg')}}" data-lity data-lity-desc="...">
+                                                <i class="la la-expand"></i>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                    <div class="widget-body text-center">
+                                        <h3 class="mt-3 mb-3"><a href="#">Field</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-md-4 col-sm-6">
+                                <div class="widget has-shadow">
+                                    <figure class="img-hover-01">
+                                        <img src="{{ asset('template3/img/albums/20200228_145256.jpg')}}" class="img-fluid" alt="...">
+                                        <div>
+                                            <a href="{{ asset('template3/img/albums/20200228_145256.jpg')}}" data-lity data-lity-desc="...">
+                                                <i class="la la-expand"></i>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                    <div class="widget-body text-center">
+                                        <h3 class="mt-3 mb-3"><a href="#">Flower</a></h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Row -->
+                    </div>
+                    <!-- End Col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Container -->
+            <!-- Begin Page Footer-->
+            <!-- Begin Page Footer-->
+            <footer class="main-footer">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-xl-end justify-content-lg-end justify-content-md-end justify-content-center">
+                            <ul class="nav">
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End Page Footer -->
+            <!-- End Page Footer -->
+            <a href="#" class="go-top"><i class="la la-arrow-up"></i></a>
+            <!-- Offcanvas Sidebar -->
+            <!-- End Offcanvas Sidebar -->
+        </div>
+        <!-- End Content -->
+    </div>
+    <!-- End Page Content -->
+</div>
+<!-- Begin Vendor Js -->
+<script src="{{ asset('template3/vendors/js/base/jquery.min.js') }}"></script>
+<script src="{{ asset('template3/vendors/js/base/core.min.js') }}"></script>
+<!-- End Vendor Js -->
+<!-- Begin Page Vendor Js -->
+<script src="{{ asset('template3/vendors/js/nicescroll/nicescroll.min.js') }}"></script>
+<script src="{{ asset('template3/vendors/js/lity/lity.min.js') }}"></script>
+<script src="{{ asset('template3/vendors/js/app/app.min.js') }}"></script>
+<!-- End Page Vendor Js -->
+<!-- Begin Page Snippets -->
+<script>
+    $(document).on('click', '[data-lightbox]', lity);
+</script>
+<!-- End Page Snippets -->
+</body>
+</html>
