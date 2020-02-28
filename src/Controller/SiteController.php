@@ -9,6 +9,14 @@ use Symfony\Component\Routing\Annotation\Route;
 class SiteController extends AbstractController
 {
     /**
+     * @Route("/")
+     */
+    public function home()
+    {
+        return $this->redirectToRoute('app_site_index');
+    }
+
+    /**
       * @Route("/in-loving-memory")
       */
     public function index()
