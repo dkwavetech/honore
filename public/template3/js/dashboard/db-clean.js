@@ -5,7 +5,7 @@
 	// ------------------------------------------------------- //
 	// Noty
 	// ------------------------------------------------------ //
-	setTimeout(function () {
+	/*setTimeout(function () {
 		new Noty({
 		    text: '<div class="text-center">Huzzah! Elisyam is fully loaded.</div>',
 		    type: 'notification',
@@ -16,78 +16,11 @@
 				close: 'animated bounceOutRight' // Animate.css class names
 			}
 		}).show()
-	}, 3000)
+	}, 3000)*/
 
 	// ------------------------------------------------------- //
 	// Ratings
 	// ------------------------------------------------------ //
-	var ctx = document.getElementById('reviews-stats').getContext("2d");
-
-	var myChart = new Chart(ctx, {
-		type: 'line',
-		data: {
-			labels: ["Jan", "Feb", "Mar", "Apr", "May"],
-			datasets: [{
-				label: "Ratings",
-				borderColor: '#08a6c3',
-				pointRadius: 0,
-				pointHitRadius: 5,
-				pointHoverRadius: 3,
-				pointHoverBorderColor: "#08a6c3",
-				pointHoverBackgroundColor: "#08a6c3",
-				pointHoverBorderWidth: 3,
-				fill: true,
-				backgroundColor: '#fff',
-				borderWidth: 3,
-				data: [10, 4, 10, 7, 12]
-			}]
-		},
-		options: {
-			tooltips: {
-				backgroundColor: 'rgba(47, 49, 66, 0.8)',
-				titleFontSize: 13,
-				titleFontColor: '#fff',
-				caretSize: 0,
-				cornerRadius: 4,
-				xPadding: 5,
-				displayColors: false,
-				yPadding: 5,
-			},
-			layout: {
-				padding: {
-					left: 0,
-					right: 0,
-					top: 0,
-					bottom: 0
-				}
-			},
-			legend: {
-				display: false
-			},
-			scales: {
-				yAxes: [{
-					ticks: {
-						display: false,
-						beginAtZero: false,
-						maxTicksLimit: 2,
-					},
-					gridLines: {
-						drawBorder: false,
-						display: false
-					}
-				}],
-				xAxes: [{
-					gridLines: {
-						drawBorder: false,
-						display: false
-					},
-					ticks: {
-						display: true
-					}
-				}]
-			}
-		}
-	});
 
 	// ------------------------------------------------------- //
 	// Facebook
@@ -267,7 +200,7 @@
 	});
 
 	// ------------------------------------------------------- //
-	// Widget 02 (Activity) 
+	// Widget 02 (Activity)
 	// ------------------------------------------------------ //
 	var ctx = document.getElementById('sale-chart').getContext("2d");
 
@@ -378,7 +311,7 @@
 					end: '2018-09-05',
 					className: 'fc-bg-default',
 					icon : "scissors"
-				}, 
+				},
 				{
 					title: 'Flight Paris',
 					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu pellentesque nibh. In nisl nulla, convallis ac nulla eget, pellentesque pellentesque magna.',
@@ -411,7 +344,7 @@
 					end: '2018-09-15',
 					className: 'fc-bg-violet',
 					icon : "calendar"
-				}, 
+				},
 				{
 					title: 'Baby Shower',
 					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu pellentesque nibh. In nisl nulla, convallis ac nulla eget, pellentesque pellentesque magna.',
@@ -427,7 +360,7 @@
 					end: '2018-09-14',
 					className: 'fc-bg-default',
 					icon : "birthday-cake"
-				}, 
+				},
 				{
 					title: 'Restaurant',
 					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu pellentesque nibh. In nisl nulla, convallis ac nulla eget, pellentesque pellentesque magna.',
@@ -473,7 +406,7 @@
 				}
 			],
 			eventRender: function(event, element) {
-				if(event.icon){          
+				if(event.icon){
 					element.find(".fc-title").prepend("<i class='la la-"+event.icon+"'></i>");
 				}
 			  },

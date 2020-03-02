@@ -7,7 +7,7 @@
 	// ------------------------------------------------------ //
 	setTimeout(function () {
 		new Noty({
-		    text: '<div class="text-center">Huzzah! Elisyam is fully loaded.</div>',
+		    text: '<div class="text-center">Merci pour votre témoignage</div>',
 		    type: 'notification',
 		    layout: 'topRight',
 		    timeout: 3000,
@@ -267,7 +267,7 @@
 	});
 
 	// ------------------------------------------------------- //
-	// Widget 02 (Activity) 
+	// Widget 02 (Activity)
 	// ------------------------------------------------------ //
 	var ctx = document.getElementById('sale-chart').getContext("2d");
 
@@ -378,7 +378,7 @@
 					end: '2018-09-05',
 					className: 'fc-bg-default',
 					icon : "scissors"
-				}, 
+				},
 				{
 					title: 'Flight Paris',
 					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu pellentesque nibh. In nisl nulla, convallis ac nulla eget, pellentesque pellentesque magna.',
@@ -411,7 +411,7 @@
 					end: '2018-09-15',
 					className: 'fc-bg-violet',
 					icon : "calendar"
-				}, 
+				},
 				{
 					title: 'Baby Shower',
 					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu pellentesque nibh. In nisl nulla, convallis ac nulla eget, pellentesque pellentesque magna.',
@@ -427,7 +427,7 @@
 					end: '2018-09-14',
 					className: 'fc-bg-default',
 					icon : "birthday-cake"
-				}, 
+				},
 				{
 					title: 'Restaurant',
 					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras eu pellentesque nibh. In nisl nulla, convallis ac nulla eget, pellentesque pellentesque magna.',
@@ -473,7 +473,7 @@
 				}
 			],
 			eventRender: function(event, element) {
-				if(event.icon){          
+				if(event.icon){
 					element.find(".fc-title").prepend("<i class='la la-"+event.icon+"'></i>");
 				}
 			  },

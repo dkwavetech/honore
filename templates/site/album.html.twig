@@ -10,7 +10,7 @@ Author: SAEROX
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>François-Honoré MKOUOUNGA - in loving memory</title>
+    <title>François-Honoré MKOUONGA - in loving memory</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Google Fonts -->
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
@@ -62,7 +62,7 @@ Author: SAEROX
                 <div class="navbar-holder d-flex align-items-center align-middle justify-content-between">
                     <!-- Begin Logo -->
                     <div class="navbar-header">
-                        <a href="#" class="navbar-brand">
+                        <a href="{{ path('app_site_index') }}" class="navbar-brand">
                             <h2 style="margin-left:20px; margin-top:10px; color:white; font-style: italic; font-weight: bold">In loving memory</h2>
                             <h2 style="margin-left:20px; margin-top:10px; color:white; font-style: italic; font-weight: bold">Papa François-Honoré</h2>
                         </a>
@@ -95,8 +95,8 @@ Author: SAEROX
                         </a>
                     </li>
                     <li>
-                        <a href="#">
-                            <i class="la la-comments"></i><span>Messages</span>
+                        <a href="{{ path('app_site_messages') }}#messages">
+                            <i class="la la-comments"></i><span>Témoignages</span>
                         </a>
                     </li>
                     <li>
